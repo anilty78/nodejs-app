@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: anilty/nodejs-app:latest
+        image: anilty/nodejs-app:5
         ports:
         - containerPort: 3000
 
