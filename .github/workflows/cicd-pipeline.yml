@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main  # Change this to your active branch
+      - master  # Change this to your active branch
 
 jobs:
   build-and-push:
@@ -68,4 +68,3 @@ jobs:
       - name: Sync ArgoCD App
         run: |
           curl -X POST http://api/v1dlytica-devops-aniltyata.eastus.cloudapp.azure.com:30616/applications/nodejs-app/sync
-  
