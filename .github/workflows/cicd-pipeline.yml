@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: anilty/nodejs-app:latest
+          images: anilty/nodejs-app
 
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v4
